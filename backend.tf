@@ -4,7 +4,6 @@ terraform {
     key            = "state/"
     region         = "us-east-1"
     profile        = "default"
-    dynamodb_table = "dynamodb"
   }
 
 
@@ -12,5 +11,5 @@ terraform {
 provider "aws" {
   region                  = "us-east-1"
   profile                 = "default"
-  shared_credentials_file = "C:/Users/visha/.aws/credentials"
+  shared_credentials_file = "~/.aws"
 }
