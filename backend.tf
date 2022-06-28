@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket         = "bishal-is-a-joke"
-    key            = "state/"
+    key            = ""
     region         = "us-east-1"
   }
 
